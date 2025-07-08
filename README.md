@@ -8,11 +8,12 @@ an API endpoint for a UI to poll and display the latest activity.
 
 
 **ENV file Structure**
+```bash
 
 MONGO_URI=mongodb://localhost:27017/ # Default local MongoDB URI
 DB_NAME=github_webhooks
 COLLECTION_NAME=events
-
+```
 **Prerequisites:**
 
 - Python 3.x
@@ -23,5 +24,5 @@ COLLECTION_NAME=events
 **1. Clone the repository:**
 
 ```bash
-git clone [https://github.com/YOUR_GITHUB_USERNAME/webhook-repo.git](https://github.com/YOUR_GITHUB_USERNAME/webhook-repo.git)
+git clone https://github.com/YOUR_GITHUB_USERNAME/webhook-repo.git
 cd webhook-repo
